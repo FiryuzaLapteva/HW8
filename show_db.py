@@ -19,4 +19,4 @@ def Show_db(db_name):
             count += 1
         print(f'Всего в файле {count} строк(и).')
 
-Show_db('Pupils.csv')
+# Show_db('Pupils.csv')

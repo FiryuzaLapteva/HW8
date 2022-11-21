@@ -20,4 +20,4 @@ def Get_surname():
     '''
     return input("Введите фамилию искомого ученика\n")
 
-print(Get_surname())
+# print(Get_surname())
