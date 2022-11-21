@@ -14,18 +14,14 @@ def Delete_db():
             # записываем в список все строчки без family
             if family not in row:
                 newrows.append(row)
-            else:
-                is_student_in_db = True
-                
+
                 
     with open("Pupils.csv","w", encoding='utf-8', newline='',) as csvfile2:
             write=csv.writer(csvfile2, delimiter=',') # открываем файл для записи
             for line in newrows:
                 write.writerow(line)
 
-    if is_student_in_db:
-        print(f"Ученик {family} удален из базы.")
-    else:
-        print(f"Ученик {family} не был найден в базе.")
-                
-# Delete_db()
+  
+            
+
+        
