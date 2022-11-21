@@ -12,7 +12,7 @@ def Search_pupil(pupil_lastName):
                 break
         if isFinded == False:
             return print ("Ученик с такой фамилией не найден")              
-Search_pupil("Иванов")
+# Search_pupil("Иванов")
 
 # def Search_index_of_pupil_record():
 #     '''

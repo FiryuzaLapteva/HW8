@@ -1,6 +1,6 @@
 import csv
 
-def delete_db():
+def Delete_db():
 
     '''
     Функция удаления строки по фамилии ученика
@@ -28,4 +28,4 @@ def delete_db():
     else:
         print(f"Ученик {family} не был найден в базе.")
                 
-delete_db()
+# Delete_db()

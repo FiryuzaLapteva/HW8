@@ -1,5 +1,5 @@
 import csv
-def add_db (csvFileName):
+def Add_db (csvFileName):
     '''
     Функция добавляющая новые данные по ученику в строчку
     '''
@@ -18,5 +18,5 @@ def add_db (csvFileName):
     print('\nИзменения внесены\n') 
 
 
-add_db('Pupils.csv')
+# Add_db('Pupils.csv')
  
