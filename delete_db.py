@@ -21,10 +21,7 @@ def Delete_db():
             for line in newrows:
                 write.writerow(line)
 
-    if is_student_in_db:
-        print(f"Ученик {family} удален из базы.")
-    else:
-        print(f"Ученик {family} не был найден в базе.")
+  
             
 
         
