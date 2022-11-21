@@ -3,6 +3,7 @@ from show_db import Show_db
 from delete_db import Delete_db
 from add_db import Add_db
 from search_db import Search_pupil
+from edit_record import Edit_rec
 
 def LaunchProject():
     action = Get_action()
@@ -17,4 +18,4 @@ def LaunchProject():
     elif action == 4:
         Add_db('Pupils.csv')
     elif action == 5:
-        print('do5')
+        Edit_rec()
