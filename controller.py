@@ -15,6 +15,6 @@ def LaunchProject():
     elif action == 3:
         Delete_db()
     elif action == 4:
-        Add_db.add_db()
+        Add_db('Pupils.csv')
     elif action == 5:
         print('do5')
